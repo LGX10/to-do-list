@@ -1,4 +1,28 @@
 * {
     box-sizing: border-box;
+
 }
 
+body {
+background-color: lightblue;
+
+}
+
+
+
+
+header {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 45px;
+height: 80px;
+}
+
+
+.card {
+display: flex;
+
+
+
+}
