@@ -8,6 +8,11 @@
     src: url(./fonts/Nexa-Heavy.ttf);
 }
 
+@font-face {
+    font-family: dunkin;
+    src: url(./fonts/Dunkin.otf);
+}
+
 
 
 
@@ -66,10 +71,10 @@ border-radius: 40px;
 
 .button h3 {
 position: relative;
-font-family: sans-serif;
-font-size: 20px;
+font-family: dunkin;
+font-size: 16px;
 color:  rgb(177, 183, 0);
-left: 14px;
+left: 13px;
 top: 17px;
 }
 
@@ -82,7 +87,18 @@ border-radius: 30px;
 position: relative;
 left: 560px;
 bottom: 200px;
+}
 
+
+.checkbox {
+transform: scale(4); /* Adjust the scale value to change the size */
+-webkit-transform: scale(4); /* For Safari */
+-moz-transform: scale(4); /* For Firefox */
+-ms-transform: scale(4); /* For IE 9 */
+-o-transform: scale(4); /* For Opera */
+position: relative;
+left: 75px;
+bottom: 200px;
 
 
 
