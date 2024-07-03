@@ -3,6 +3,13 @@
     src: url(./fonts/StretchPro.otf);
 }
 
+@font-face {
+    font-family: Nexa;
+    src: url(./fonts/Nexa-Heavy.ttf);
+}
+
+
+
 
 * {
     box-sizing: border-box;
@@ -10,7 +17,7 @@
 }
 
 body {
-background-color: rgb(114, 210, 119);
+background-color: rgb(0, 170, 255);
 
 
 }
@@ -39,7 +46,7 @@ justify-content: center;
 
 .card {
 width: 700px;    /* Set the width of the box */
-height: 500px;   /* Set the height of the box */
+height: 300px;   /* Set the height of the box */
 background-color: white;
 border-radius: 40px;
 position: relative;
@@ -52,14 +59,39 @@ width: 115px;
 height: 60px;
 background-color: rgb(245, 255, 129);
 box-shadow: 2px 2.5px rgb(78, 78, 78);
-left: 987px;
+left: 707px;
 bottom: 10px;
 border-radius: 40px; 
 }
 
+.button h3 {
+position: relative;
+font-family: sans-serif;
+font-size: 20px;
+color:  rgb(177, 183, 0);
+left: 14px;
+top: 17px;
+}
+
+.input-field {
+
+width: 400px;
+padding: 20px;
+font-size: 24px;
+border-radius: 30px;
+position: relative;
+left: 560px;
+bottom: 200px;
+
+
+
+
+
+}
+
 .button:hover {
 cursor: pointer;
-background-color: rgb(255, 110, 175);
+background-color: rgb(253, 236, 88);
 }
 
 .button:active {
