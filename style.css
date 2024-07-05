@@ -58,7 +58,7 @@ position: relative;
 top: 75px;
 }
 
-.button {
+#taskButton {
 position: relative;
 width: 115px;
 height: 60px;
@@ -69,13 +69,13 @@ bottom: 10px;
 border-radius: 40px; 
 }
 
-.button h3 {
+#taskButton {
 position: relative;
 font-family: dunkin;
 font-size: 16px;
 color:  rgb(177, 183, 0);
-left: 13px;
-top: 17px;
+left: 712px;
+top; 14px;
 }
 
 .input-field {
@@ -87,6 +87,8 @@ border-radius: 30px;
 position: relative;
 left: 560px;
 bottom: 200px;
+border-width: 5px;
+border-color: rgb(0, 174, 255);
 }
 
 
@@ -103,14 +105,15 @@ bottom: 200px;
 
 
 
+
 }
 
-.button:hover {
+#taskButton:hover {
 cursor: pointer;
 background-color: rgb(253, 236, 88);
 }
 
-.button:active {
+#taskButton:active {
     box-shadow: none;
     
 }
