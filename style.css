@@ -92,7 +92,7 @@ border-color: rgb(0, 174, 255);
 }
 
 
-.checkbox {
+#checkbox {
 transform: scale(4); /* Adjust the scale value to change the size */
 -webkit-transform: scale(4); /* For Safari */
 -moz-transform: scale(4); /* For Firefox */
@@ -116,6 +116,13 @@ background-color: rgb(253, 236, 88);
 #taskButton:active {
     box-shadow: none;
     
+}
+
+.selectors::after {
+flex-direction: column;
+
+
+
 }
 
 
