@@ -6,25 +6,22 @@ audio.play()
 play.addEventListener("click", playSound);
 
 
-function playSound2() {
-    let audio2 = new Audio("Achievement Sound Effect.mp3");
-    audio2.play();
+
+
+let addButton = document.getElementById('taskButton');
+const allFields = document.querySelectorAll('selectors');
+const textField = document.getElementById('input-field');
+
+function addingTask() {
+if (textField.value.trim() === "") {
+    alert ("you did not put anything in the input field!");
+}
 
 }
 
-let checkedBox = document.getElementById('checkbox');
-checkedBox.addEventListener('click', playSound2);
+addButton.addEventListener('click', addingTask);
 
 
-let taskEl = document.getElementById('taskEl')
-let selectors = document.querySelectorAll('selectors')
-
-function addTask() {
-i = selectors
-for (let i = 0; i < 1; i++) 
-
-
-}
 
 
 

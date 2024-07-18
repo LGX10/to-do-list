@@ -23,8 +23,6 @@
 
 body {
 background-color: rgb(0, 170, 255);
-
-
 }
 
 
@@ -78,7 +76,7 @@ left: 712px;
 top; 14px;
 }
 
-.input-field {
+#input-field {
 
 width: 400px;
 padding: 20px;
@@ -101,11 +99,16 @@ transform: scale(4); /* Adjust the scale value to change the size */
 position: relative;
 left: 75px;
 bottom: 200px;
+}
 
 
-
-
-
+button {
+position: relative;
+position: relative;
+left: 565px;
+bottom: 205px;
+width: 40px;
+height: 40px;
 }
 
 #taskButton:hover {
@@ -120,8 +123,6 @@ background-color: rgb(253, 236, 88);
 
 .selectors::after {
 flex-direction: column;
-
-
 
 }
 
